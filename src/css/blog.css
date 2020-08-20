@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] +label {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+input[type="radio"]:checked +label {
+  color: gray;
+}
+#sortArticles {
+  padding-bottom: 5px;
+}
+#articles {
+  padding: 5px;
+  background-color: #96e9e9;
+}
+
+.article {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+.articleDate {
+
+}
+.articleTitle {
+  
+}
+.articleText {
+  
+}
+.articleRate {
+  text-align: right;
+  padding: 5px;
+}
